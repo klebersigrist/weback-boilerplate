@@ -1,1 +1,1 @@
-# weback-boilerplate
+# webpack-boilerplate

@@ -18,7 +18,7 @@ module.exports = {
   coverageReporters: ['text', 'clover', 'lcov'],
   collectCoverageFrom: [
     '**/src/**/*.js',
-    '!**/spec/**/*.js',
+    '!**/src/spec/**/*.js',
   ],
   moduleFileExtensions: [
     'js',

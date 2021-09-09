@@ -2,7 +2,8 @@ const path = require('path');
 
 module.exports = {
   mutate: [
-    'src/**/*.js'
+    'src/**/*.js',
+    '!src/spec/**/*.js'
   ],
     testRunner: 'jest',
     jest: {

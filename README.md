@@ -1,4 +1,4 @@
-# webpack-boilerplate
+# Webpack Boilerplate
 
 - webpack
 - sass
@@ -6,3 +6,9 @@
 - eslit
 - jest
 - stryker
+
+## Serve
+npm run serve
+
+## Build
+npm run build

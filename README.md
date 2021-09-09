@@ -1,6 +1,8 @@
 # Webpack Boilerplate
 
 - webpack
+- babel
+- browserslist
 - sass
 - dev-server
 - eslint

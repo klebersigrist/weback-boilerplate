@@ -1,0 +1,35 @@
+
+
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@mixin box-sizing( $type: border-box ) {
+    -webkit-box-sizing: $type;
+       -moz-box-sizing: $type;
+         -o-box-sizing: $type;
+        -ms-box-sizing: $type;
+            box-sizing: $type;
+}
+
+@mixin transition ($duration: .3s, $type: all){
+  -webkit-transition: $type $duration ease-in-out;
+    -moz-transition: $type $duration ease-in-out;
+    -o-transition: $type $duration ease-in-out;
+    transition: $type $duration ease-in-out;
+}
+
+@mixin clear-float{
+  &:after{
+    content: '';
+    width: 100%;
+    height: 0;
+    background: red;
+    display: block;
+    clear: both;
+  }
+}

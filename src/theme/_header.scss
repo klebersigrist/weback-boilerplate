@@ -1,0 +1,15 @@
+#header {
+  display: none;
+
+  @media #{$mobile} {
+    display: inherit;
+    background: $color-lighter;
+    border-bottom: solid 1px $color-dark;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 30;
+    padding: 15px 0;
+  }
+}

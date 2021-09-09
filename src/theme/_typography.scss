@@ -1,0 +1,81 @@
+body {
+  font-family: $brand-font !important;
+  font-weight: $normal;
+}
+
+h1 {
+  color: $black;
+  font-family: $brand-font-bold;
+  font-weight: $bold;
+  font-size: 1.2rem;
+}
+
+h2 {
+  font-family: $brand-font-bold;
+  font-weight: $bold;
+  color: $black;
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+h3 {
+  color: $neutral;
+  font-family: $brand-font-bold;
+  font-weight: $bold;
+  font-size: 1rem;
+}
+
+h4 {
+  font-family: $brand-font;
+  font-weight: $normal;
+  color: $neutral;
+  font-size: 0.9rem;
+  padding: 0 .5rem;
+}
+
+h5 {
+  font-family: $brand-font;
+  font-weight: $normal;
+  text-align: center;
+  color: $neutral;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-size: .9rem;
+}
+
+p {
+  font-family: $brand-font;
+  font-weight: $normal;
+  font-size: .9rem;
+  color: $neutral;
+  padding-bottom: .5rem;
+  margin-bottom: 0;
+}
+
+@media #{$ipad} {}
+
+@media #{$desktop} {}
+
+@media #{$large} {
+  h1 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1.1em;
+  }
+
+  h3 {
+    font-size: 1.2em;
+  }
+
+  h4 {
+    font-size: 1.1em;
+    padding: 8px .5rem 0 .5rem;
+  }
+
+  h5 {
+    font-size: 1.1em;
+  }
+}

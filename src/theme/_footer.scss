@@ -1,0 +1,77 @@
+#footer {
+  background-color: $footer-black;
+  padding: 30px 0 30px 0;
+
+  .footer-links {
+    margin: 0;
+    padding: 0;
+
+    @media #{$mobile} {
+      padding-bottom: 30px;
+    }
+
+    li {
+      display: inline-block;
+
+      a {
+        color: darken($white, 10%);
+        margin-top: 3rem;
+        margin-right: 1rem;
+        font-size: .9rem;
+
+        &:hover {
+          text-decoration: none;
+          color: $white;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .rml-sponsor {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+    a {
+      img {
+        width: 110px;
+        background-color: $white;
+      }
+    }
+  }
+
+  .rml-logo {
+    display: inline-block;
+
+    a {
+      img {
+        width: 110px;
+      }
+    }
+  }
+
+  @media #{$mobile} {
+    .footer-links {
+      text-align: center;
+      li {
+        display: block;
+        margin-bottom: 8px;
+      }
+    }
+    .rml-sponsor,
+    .rml-logo {
+      display: block;
+      text-align: center;
+      margin-bottom: 30px;
+      margin-right: 0;
+      a {
+        img {
+          width: 150px;
+        }
+      }
+    }
+  }
+
+
+}

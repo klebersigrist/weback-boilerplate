@@ -3,7 +3,7 @@
 - webpack
 - sass
 - dev-server
-- eslit
+- eslint
 - jest
 - stryker
 
